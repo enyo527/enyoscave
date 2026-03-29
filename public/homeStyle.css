@@ -13,6 +13,9 @@
   --border: 1.5px solid #4213b9;
   --padding: 15px;
   --margin: 20px;
+  --small-padding: 7px;
+  --small-margin: 10px;
+  --small-font: 0.8em;
 }   
 
 html {
@@ -40,7 +43,7 @@ body {
 }
 
 ul {
-  padding: var(--padding);
+  padding: var(--small-padding);
 }
 
 .navbar {
@@ -76,7 +79,15 @@ h2 {
   border: var(--border);
   padding: var(--padding);
   margin: var(--margin);
+}
 
+.font-box {
+  background-color: var(--secondary-background-color);
+  border-radius: var(--border-radius);
+  border: var(--border);
+  padding: var(--padding);
+  margin: var(--margin);
+  font-size: var(--small-font);
 }
 
 .flex-column {
