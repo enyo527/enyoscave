@@ -7,8 +7,8 @@
 
   /* background settings */
   --background-image: url("images/bg.png");
-  --primary-background-color: rgb(230, 249, 255);
-  --secondary-background-color: rgb(213, 255, 251);
+  --primary-background-color: rgba(205, 243, 255, 0.9);
+  --secondary-background-color: rgba(146, 255, 244, 0.9);
   --border-radius: 12px;
   --border: 1.5px solid #4213b9;
   --padding: 15px;
@@ -36,7 +36,7 @@ html {
 
 body {
   color: black;
-  font-family: Verdana;
+  font-family: "Basteleur Moonlight", 'Times New Roman', Times, serif;
 }
 
 ul {
